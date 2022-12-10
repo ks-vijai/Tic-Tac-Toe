@@ -1,0 +1,82 @@
+.heading {
+  background: -webkit-linear-gradient(#a18cd1, #fbc2eb);
+  background-clip: text;
+  font-size: 35px;
+  font-weight: bold;
+  padding: 10px 0 0 0px;
+  text-align: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 100%;
+}
+
+.main-board {
+  align-items: center;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.34);
+  display: flex;
+  justify-content: center;
+  margin: 5% auto;
+  height: 70vh;
+  width: 70vw;
+}
+
+.board-layout {
+  display: grid;
+  grid-template-columns: repeat(3, 6rem);
+  grid-template-rows: minmax(6rem, auto) repeat(2, 6rem);
+  gap: 15px;
+}
+
+.board-cell {
+  align-items: center;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.34);
+  color: violet;
+  display: flex;
+  font-size: 50px;
+  font-weight: 600;
+  justify-content: center;
+}
+
+.board-cell:active {
+  background-color: #e8e8e8;
+}
+
+.modal-popup {
+  text-align: center;
+}
+
+.modal-title {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0 auto;
+  padding: 15px 0 10px 15px;
+}
+
+.modal-body {
+  font-size: 17px;
+  font-weight: 500;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.restart-button {
+  background-image: linear-gradient(
+    to right,
+    #ff512f 0%,
+    #dd2476 51%,
+    #ff512f 100%
+  );
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  margin: 10px auto 30px;
+  padding: 5px;
+  text-align: center;
+  width: 50%;
+}
