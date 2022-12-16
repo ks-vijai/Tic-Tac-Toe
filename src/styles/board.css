@@ -3,7 +3,7 @@
   background-clip: text;
   font-size: 35px;
   font-weight: bold;
-  padding: 10px 0 0 0px;
+  padding: 20px 0 20px 0px;
   text-align: center;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -16,7 +16,7 @@
   border-radius: 15px;
   box-shadow: 0 0 2rem rgba(0, 0, 0, 0.34);
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   margin: 5% auto;
   height: 70vh;
   width: 70vw;
@@ -79,4 +79,90 @@
   padding: 5px;
   text-align: center;
   width: 50%;
+}
+
+.start-message {
+  background: -webkit-linear-gradient(#8d73c9, #c195b4);
+  background-clip: text;
+  display: flex;
+  flex-direction: column;
+  font-size: 130%;
+  font-weight: 700;
+  height: 80px;
+  gap: 1em;
+  margin: 10px 0 40px 0;
+  -webkit-text-fill-color: transparent;
+}
+
+.start-button {
+  background-image: linear-gradient(
+    to right,
+    #2eb62c 0%,
+    #57c84d 51%,
+    #83d475 100%
+  );
+  height: 35px;
+  margin: 40px auto 30px;
+  width: 40%;
+}
+
+.label-message {
+  font-size: 120%;
+  font-weight: 500;
+  margin: 0 20px 0 0;
+}
+
+.profile-card {
+  border: 1px solid grey;
+  border-radius: 10px;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.34);
+  padding: 20px;
+}
+
+.profile-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  height: 70px;
+  margin: 0 0 10px 0;
+  width: 70px;
+}
+
+.profile-content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.player-name {
+  background: -webkit-linear-gradient(#8d73c9, #c195b4);
+  background-clip: text;
+  font-size: 130%;
+  font-weight: 700;
+  -webkit-text-fill-color: transparent;
+}
+
+.player-score {
+  background: -webkit-linear-gradient(#8d73c9, #c195b4);
+  background-clip: text;
+  font-size: 120%;
+  font-weight: 600;
+  margin-top: 10px;
+  -webkit-text-fill-color: transparent;
+}
+
+.result-buttons {
+  display: flex;
+}
+
+.play-again-button {
+  background-image: linear-gradient(
+    to right,
+    #2eb62c 0%,
+    #57c84d 51%,
+    #83d475 100%
+  );
+  height: 35px;
+  width: 40%;
 }
